@@ -9,10 +9,10 @@ import transactionRoutes from "./Routers/Transactions.js";
 import userRoutes from "./Routers/userRouter.js";
 import path from "path";
 
-dotenv.config({ path: "./config/config.env" });
+// dotenv.config({ path: "./config/config.env" });
 const app = express();
 
-const port = process.env.PORT;
+// const port = process.env.PORT;
 
 connectDB();
 
